@@ -12,6 +12,8 @@ If you want to change according you. Then you have to change in function.js file
 Default code : events:"http://localhost/calendar/eventController", <br/>
 You want change : events:"http://website.com/directory_name/eventController", <br/>
 
+## Demo URL
+<a href="http://getdebest.com/calendar/" >Demo URL</a>
 ## Screenshot
 <img src="asset/images/event_calendar.png" width="800" />
 <img src="asset/images/add_event.png" width="800" />
