@@ -13,7 +13,9 @@ Default code : events:"http://localhost/calendar/eventController", <br/>
 You want change : events:"http://website.com/directory_name/eventController", <br/>
 
 ## Screenshot
-<img src="asset/images/event_calendar.png" />
+<img src="asset/images/event_calendar.png" width="800" />
+<img src="asset/images/add_event.png" width="800" />
+<img src="asset/images/edit_event.png" width="800" />
 
 ## Contributing
 
