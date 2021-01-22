@@ -8,7 +8,7 @@ You don't access directly through URL without having token. Token is automatical
 ## Important Note
 
 Default URL to access calendar : http://localhost/calendar <br/>
-If you want to change according you. Then you have to change in function.js file which are located in asset/js/function.js. <br/>
+If you want to change according to you. Then you have to change in the function.js file which are located in asset/js/function.js. <br/>
 Default code : events:"http://localhost/calendar/eventController", <br/>
 You want change : events:"http://website.com/directory_name/eventController", <br/>
 
