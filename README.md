@@ -2,18 +2,19 @@
 
 I have integrated FullCalendar with laravel 6. Now you can create/update event. <br/>
 I have used API to fetch data from database according to Year, month, week and day wise.<br/>
-You don't access driectly through URL with out having token. Token is autometically genearated when calendar event render.<br/>
+You don't access directly through URL without having token. Token is automatically generated when calendar event render.<br/>
 
 
 ## Important Note
 
-Defaul URL to access calendar : http://localhost/calendar <br/>
+Default URL to access calendar : http://localhost/calendar <br/>
 If you want to change according you. Then you have to change in function.js file which are located in asset/js/function.js. <br/>
 Default code : events:"http://localhost/calendar/eventController", <br/>
 You want change : events:"http://website.com/directory_name/eventController", <br/>
 
 ## Demo URL
-<a href="http://getdebest.com/calendar/" >Demo URL</a>
+<a href="http://getdebest.com/calendar/" >Demo URL</a><br/>
+
 ## Screenshot
 <img src="asset/images/event_calendar.png" width="800" />
 <img src="asset/images/add_event.png" width="800" />
