@@ -88,8 +88,14 @@ $(document).ready(function(){
 			})
 	      },
       	select:function(start,end){
-			$('#start').val(convertDateToMysqlDateTime(start));
+      		$('#title').val('');
+      		$('#start').val(convertDateToMysqlDateTime(start));
 			$('#end').val(convertDateToMysqlDateTime(end));
+            $('#end').val('');
+            $('#color').val('');
+            $('#textColor').val('');
+            $('#eventId').val('');
+            $('#btn_event').html('Add Event');
 			$('#dialog').dialog({
 				title:'Add Event',
 				width:500,
