@@ -72,7 +72,7 @@ $(document).ready(function(){
       	dayClick:function(date,event,view){
             $('#title').val('');
             $('#start').val(convertDateToMysqlDateTime(date));
-            $('#end').val('');
+            $('#end').val(convertDateToMysqlDateTime(date));
             $('#color').val('');
             $('#textColor').val('');
             $('#eventId').val('');
@@ -91,7 +91,6 @@ $(document).ready(function(){
       		$('#title').val('');
       		$('#start').val(convertDateToMysqlDateTime(start));
 			$('#end').val(convertDateToMysqlDateTime(end));
-            $('#end').val('');
             $('#color').val('');
             $('#textColor').val('');
             $('#eventId').val('');
